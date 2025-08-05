@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.active{
+    color: #059669;
+}
+.row{
+    @apply flex flex-wrap
+}
+.icons-midel{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
